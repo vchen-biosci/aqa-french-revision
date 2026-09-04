@@ -1332,9 +1332,1271 @@ trop
 
 too (much)""".splitlines()
 
+shape = """carré
+
+square
+
+rond
+
+round""".splitlines()
+
+weather = """averse l' (f)
+
+shower
+
+briller
+
+to shine
+
+brouillard le
+
+fog
+
+brume la
+
+mist
+
+chaleur la
+
+heat
+
+ciel le
+
+sky
+
+climat le
+
+climate
+
+couvert
+
+overcast
+
+doux
+
+mild
+
+éclair l' (m)
+
+lightning
+
+éclaircie l' (f)
+
+bright spell
+
+ensoleillé
+
+sunny
+
+faire beau
+
+to be fine (weather)
+
+faire mauvais
+
+to be bad (weather)
+
+geler
+
+to freeze
+
+glace la
+
+ice
+
+humide
+
+humid, wet
+
+météo la
+
+weather forecast
+
+mouillé
+
+wet
+
+neiger
+
+to snow
+
+nuage le
+
+cloud
+
+nuageux
+
+cloudy
+
+ombre l' (m)
+
+shade, shadow
+
+orage l' (m)
+
+storm
+
+orageux
+
+stormy
+
+pleuvoir
+
+to rain
+
+pluie la
+
+rain
+
+sec/sèche
+
+dry
+
+tempête la
+
+storm
+
+temps le
+
+weather
+
+tonnerre le
+
+thunder
+
+tremper
+
+to soak
+
+vent le
+
+wind""".splitlines()
+
+access = """complet/complète
+
+full
+
+entrée l' (f)
+
+entry, entrance
+
+libre
+
+free, vacant, unoccupied
+
+fermer
+
+to close
+
+interdit
+
+forbidden, not allowed
+
+occupé
+
+taken, occupied, engaged
+
+ouvert
+
+open
+
+ouvrir
+
+to open
+
+sortie la
+
+exit""".splitlines()
+
+correctness = """avoir raison
+
+to be right
+
+avoir tort
+
+to be wrong
+
+corriger
+
+to correct
+
+erreur l' (f)
+
+error, mistake
+
+faute la
+
+fault, mistake
+
+faux/fausse
+
+false
+
+il (me) faut
+
+you (I) must
+
+juste
+
+correct
+
+obligatoire
+
+compulsory
+
+parfait
+
+perfect
+
+sûr
+
+certain, sure
+
+se tromper
+
+to make a mistake
+
+vrai
+
+true""".splitlines()
+
+materials = """argent l' (m)
+
+silver
+
+béton le
+
+concrete
+
+bois le
+
+wood
+
+cuir le
+
+leather
+
+fer le
+
+iron
+
+laine la
+
+wool
+
+or l' (m)
+
+gold
+
+soie la
+
+silk
+
+verre le
+
+glass""".splitlines()
+
+common_abbreviations = """CDI centre de documentation et d’information le
+
+resource centre
+
+CES collège d’enseignement secondaire le
+
+secondary school
+
+EPS éducation physique et sportive l’ (f)
+
+PE (physical education)
+
+HLM habitation à loyer modéré l’ (f)
+
+council/social housing accommodation
+
+SAMU service d’aide médicale d’urgence le
+
+emergency medical services
+
+SDF sans domicile fixe le
+
+homeless person
+
+SNCF société nationale des chemins de fer français la
+
+National Rail Service
+
+TGV train à grande vitesse le
+
+high-speed train
+
+TVA taxe sur la valeur ajoutée la
+
+VAT (Value Added Tax)
+
+VTT vélo tout terrain le
+
+mountain bike""".splitlines()
+
+me_family_friends = """aimable
+
+kind
+
+aîné
+
+elder
+
+amour l’ (m)
+
+love
+
+s’appeler
+
+to be called
+
+avoir...ans
+
+to be...years old
+
+barbe la
+
+beard
+
+bavard
+
+chatty/talkative
+
+beau/belle/bel
+
+beautiful
+
+beau-père le
+
+step-father
+
+belle-mère la
+
+step-mother
+
+bête
+
+stupid, silly
+
+bouclé
+
+curly
+
+célibataire
+
+single
+
+cheveux les (m)
+
+hair
+
+copain le/copine la
+
+friend, mate
+
+court
+
+short
+
+demi-frère le
+
+half-brother
+
+demi-sœur la
+
+half-sister
+
+se disputer
+
+to argue
+
+dire
+
+to say, tell
+
+égoïste
+
+selfish
+
+ensemble
+
+together
+
+s’entendre (avec)
+
+to get on (with)
+
+fâché
+
+angry
+
+se faire des amis
+
+to make friends
+
+femme la
+
+wife/woman
+
+fille la
+
+daughter/girl
+
+fils le
+
+son
+
+frisé
+
+curly
+
+généreux/généreuse
+
+generous
+
+gentil/gentille
+
+kind, nice
+
+grand-mère la
+
+grandmother
+
+grand-père le
+
+grandfather
+
+grands-parents les (m)
+
+grandparents
+
+gros/grosse
+
+fat
+
+heureux/heureuse
+
+happy
+
+injuste
+
+unfair
+
+jeune
+
+young
+
+joli
+
+pretty
+
+laid
+
+ugly
+
+long/longue
+
+long
+
+lunettes les (f)
+
+glasses
+
+mari le
+
+husband
+
+se marier
+
+to get married, marry
+
+méchant
+
+naughty
+
+mi-long
+
+medium length
+
+mort
+
+dead
+
+naissance la
+
+birth
+
+né(e) le...
+
+born on the...
+
+nom le
+
+name
+
+paresseux/paresseuse
+
+lazy
+
+partager
+
+to share
+
+partenaire le/la
+
+partner
+
+pénible
+
+annoying
+
+petit ami le
+
+boyfriend
+
+petite amie la
+
+girlfriend
+
+petite-fille la
+
+grand-daughter
+
+petit-fils le
+
+grandson
+
+prénom le
+
+first name
+
+raide
+
+straight
+
+rapports les (m)
+
+relationships
+
+sens de l’humour le
+
+sense of humour
+
+séparé
+
+separated
+
+sortir
+
+to go out
+
+sportif/sportive
+
+sporty
+
+sympa
+
+kind, nice
+
+de taille moyenne
+
+medium height
+
+tante la
+
+aunt
+
+timide
+
+shy
+
+tranquille
+
+quiet, calm
+
+travailleur/travailleuse
+
+hard-working
+
+triste
+
+sad
+
+unique
+
+only
+
+vieux/vieil/vieille
+
+old
+
+yeux les (m)
+
+eyes""".splitlines()
+
+everyday_technology = """acheter
+
+to buy
+
+avantage l’ (m)
+
+advantage
+
+chercher
+
+to look for
+
+clavier le
+
+keyboard
+
+cliquer
+
+to click
+
+dangereux
+
+dangerous
+
+désavantage le
+
+disadvantage
+
+écran l’ (m)
+
+screen
+
+envoyer
+
+to send
+
+faire des achats
+
+to shop
+
+forum le
+
+chat room
+
+imprimante l’ (f)
+
+printer
+
+inconvénient l’ (m)
+
+disadvantage, drawback
+
+jeu le
+
+game
+
+lecteur DVD le
+
+DVD player
+
+lecteur MP3 le
+
+MP3 player
+
+en ligne
+
+online
+
+mettre
+
+to put
+
+mettre en ligne
+
+to upload
+
+mot de passe le
+
+password
+
+ordinateur l’ (m)
+
+computer
+
+ordinateur portable l’ (m)
+
+laptop
+
+ordinateur tablette l’ (m)
+
+tablet
+
+passer du temps
+
+to spend time
+
+portable le
+
+mobile (phone)
+
+recevoir
+
+to receive
+
+réseau social le
+
+social network
+
+rester en contact
+
+to stay in contact
+
+site internet/web le
+
+website
+
+souris la
+
+mouse
+
+surfer sur Internet
+
+to surf the internet
+
+taper
+
+to type
+
+tchater
+
+to talk online
+
+télécharger
+
+to download
+
+texto le
+
+text
+
+touche la
+
+key""".splitlines()
+
+free_time_activities = """actualités les (f)
+
+news
+
+agneau l’ (m)
+
+lamb
+
+argent l’ (m)
+
+money
+
+assiette l’ (f)
+
+plate/dish
+
+basket le
+
+basketball
+
+beurre le
+
+butter
+
+bière la
+
+beer
+
+billet le
+
+ticket
+
+bœuf le
+
+beef
+
+boire
+
+to drink
+
+boisson la
+
+drink
+
+canard le
+
+duck
+
+la carte
+
+menu
+
+centre sportif le
+
+sports centre
+
+cerise la
+
+cherry
+
+champignon le
+
+mushroom
+
+chanter
+
+to sing
+
+chanteur le/chanteuse la
+
+singer
+
+chanson la
+
+song
+
+cheval le
+
+horse
+
+choisir
+
+to choose
+
+chou le
+
+cabbage
+
+chou-fleur le
+
+cauliflower
+
+citron le
+
+lemon
+
+club des jeunes le
+
+youth club
+
+commander
+
+to order
+
+commencer
+
+to start
+
+confiture la
+
+jam
+
+courir
+
+to run
+
+coûter
+
+to cost
+
+crêpe la
+
+pancake
+
+crudités les (f)
+
+raw chopped vegetables
+
+débuter
+
+to begin
+
+dessin animé le
+
+cartoon
+
+dinde la
+
+turkey
+
+eau (minérale) l’ (f)
+
+(mineral) water
+
+équitation l’ (f)
+
+horse riding
+
+escalade l’ (f)
+
+rock climbing
+
+escargot l’ (m)
+
+snail
+
+essayer
+
+to try
+
+fana de (le)
+
+a fan of
+
+feuilleton le
+
+soap opera
+
+film de guerre le
+
+war film
+
+film policier le
+
+detective film
+
+fraise la
+
+strawberry
+
+framboise la
+
+raspberry
+
+fruits de mer les (m)
+
+seafood
+
+glace la
+
+ice cream
+
+goûter
+
+to taste
+
+haricots verts les (m)
+
+green beans
+
+hors d’œuvre le (m)
+
+starter
+
+s’intéresser à
+
+to be interested in
+
+jambon le
+
+ham
+
+jeu télévisé le
+
+game show
+
+lait le
+
+milk
+
+légumes les (m)
+
+vegetables
+
+natation la
+
+swimming
+
+nourriture la
+
+food
+
+œuf l’ (m)
+
+egg
+
+oignon l’ (m)
+
+onion
+
+passe-temps le
+
+hobby
+
+pâtes les (f)
+
+pasta
+
+patinage à glace le
+
+ice skating
+
+patinoire la
+
+ice rink
+
+payer
+
+to pay (for)
+
+pêche la
+
+fishing/peach
+
+petits pois les (m)
+
+peas
+
+planche à voile la
+
+wind-surfing
+
+plat principal le
+
+main meal/dish
+
+poire la
+
+pear
+
+poisson le
+
+fish
+
+poivre le
+
+pepper
+
+pomme la
+
+apple
+
+pomme de terre la
+
+potato
+
+potage le
+
+soup
+
+poulet le
+
+chicken
+
+piscine la
+
+swimming pool
+
+pourboire le
+
+tip
+
+prendre
+
+to take
+
+promenade la
+
+walk
+
+publicité la
+
+adverts
+
+raisins les (m)
+
+grapes
+
+rencontrer
+
+to meet
+
+repas le
+
+meal
+
+riz le
+
+rice
+
+saucisse la
+
+sausage
+
+saumon le
+
+salmon
+
+sel le
+
+salt
+
+série la
+
+series
+
+serveur le/serveuse la
+
+waiter, waitress
+
+skate le
+
+skateboarding
+
+ski (nautique) le
+
+(water) skiing
+
+sports d’hiver les (m)
+
+winter sports
+
+stade le
+
+stadium
+
+steak haché le
+
+burger
+
+sucre le
+
+sugar
+
+tasse la
+
+cup
+
+télé réalité la
+
+reality television
+
+temps libre le
+
+free time
+
+thé le
+
+tea
+
+thon le
+
+tuna
+
+truite la
+
+trout
+
+vedette la
+
+film star
+
+viande la
+
+meat
+
+voile la
+
+sailing
+
+voir
+
+to see
+
+volley le
+
+volleyball
+
+vouloir
+
+to wish, want
+
+yaourt le
+
+yoghurt""".splitlines()
+
+french_customs_and_festivals = """cadeau le
+
+present
+
+église l’ (f)
+
+church
+
+fête la
+
+festival, celebration, party
+
+fête des mères la
+
+Mother's Day
+
+fête des rois la
+
+Twelfth Night/Epiphany
+
+fête du travail la
+
+May Day
+
+fêter
+
+to celebrate
+
+feux d’artifice les (m)
+
+fireworks
+
+Jour de l’An le
+
+New Year’s Day
+
+juif/juive
+
+Jewish
+
+mosquée la
+
+Mosque
+
+musulman
+
+Muslim
+
+Pâques
+
+Easter
+
+poisson d’avril
+
+April Fools' Day, April Fool!
+
+religieux/religieuse
+
+religious
+
+Saint-Sylvestre la
+
+New Year’s Eve
+
+Saint Valentin la
+
+St. Valentine’s Day
+
+Toussaint la
+
+All Saints ' Day
+
+veille de Noël la
+
+Christmas Eve""".splitlines()
+
 lists = [comparisons, conjunctions_connectives, prepositions, negatives, number_expressions
          , questions, common_questions, greetings_and_exclamations, opinions, seasons, 
-         time_expressions, location_and_distance, colours]
+         time_expressions, location_and_distance, colours, weights_and_measures, shape, weather,
+         access, correctness, materials, common_abbreviations, me_family_friends, everyday_technology,
+         free_time_activities]
 
 for list in lists:
     new_list = []
