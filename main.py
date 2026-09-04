@@ -2592,11 +2592,2778 @@ veille de Noël la
 
 Christmas Eve""".splitlines()
 
+neighbourhood = """aider
+
+to help
+
+animé
+
+lively
+
+arbre l’ (m)
+
+tree
+
+armoire l’ (f)
+
+wardrobe
+
+bâtiment le
+
+building
+
+besoin le (avoir....de)
+
+need (to need)
+
+bibliothèque la
+
+library
+
+boucherie la
+
+butcher’s shop
+
+baskets les (f)
+
+trainers
+
+boulangerie la
+
+bakery
+
+bijou le
+
+jewel, jewellery
+
+bijouterie la
+
+jeweller’s shop
+
+blouson le
+
+coat/jacket
+
+bon marché
+
+cheap
+
+bruit le
+
+noise
+
+bureau le
+
+office, study
+
+bruyant
+
+noisy
+
+caisse la
+
+till
+
+calme
+
+quiet
+
+campagne la
+
+countryside
+
+carte bancaire la
+
+bank card
+
+cave la
+
+cellar
+
+ceinture la
+
+belt
+
+célèbre
+
+famous
+
+centre commercial le
+
+shopping centre
+
+champ le
+
+field
+
+chapeau le
+
+hat
+
+charcuterie la
+
+delicatessen
+
+chaussette la
+
+sock
+
+chaussure la
+
+shoe
+
+chemise la
+
+shirt
+
+choix le
+
+choice
+
+chose la
+
+thing
+
+circulation la
+
+traffic
+
+commerces les (m)
+
+shops
+
+colline la
+
+hill
+
+commissariat le
+
+police station
+
+cravate la
+
+tie
+
+cuisine la
+
+kitchen/cooking
+
+déménager
+
+to move house
+
+démodé
+
+old-fashioned
+
+dépenser
+
+to spend (money)
+
+devoir
+
+to have to
+
+économiser
+
+to save
+
+escalier l’ (m)
+
+staircase
+
+essayer
+
+to try on
+
+étage l’ (m)
+
+floor, storey
+
+fenêtre la
+
+window
+
+ferme la
+
+farm
+
+fleur la
+
+flower
+
+gare la
+
+railway station
+
+gare routière la
+
+bus station
+
+gens les (m)
+
+people
+
+gilet le
+
+waistcoat
+
+grand magasin le
+
+department store
+
+gratuit
+
+free (of charge)
+
+habitant l’ (m)
+
+inhabitant
+
+hôtel de ville l’ (m)
+
+town hall
+
+immeuble l’ (m)
+
+block of flats
+
+jardinage le
+
+gardening
+
+jupe la
+
+skirt
+
+laver
+
+to wash
+
+librairie la
+
+bookshop
+
+livrer
+
+to deliver
+
+maison la (individuelle/jumelée/mitoyenne)
+
+house (detached/semi-detached/terraced)
+
+mairie la
+
+town hall
+
+manteau le
+
+overcoat
+
+marché le
+
+market
+
+meubles les (m)
+
+furniture
+
+mode la
+
+fashion
+
+(à la) montagne la
+
+(in the) mountain(s)
+
+mur le
+
+wall
+
+musée le
+
+museum
+
+nettoyer
+
+to clean
+
+pantalon le
+
+trousers
+
+parc le
+
+park
+
+parfum le
+
+perfume
+
+pâtisserie la
+
+cake shop
+
+pauvre
+
+poor
+
+perdre
+
+to lose
+
+pièce la
+
+room
+
+place la
+
+square
+
+portefeuille le
+
+wallet
+
+porte-monnaie le
+
+purse
+
+poser
+
+to put down
+
+poste la
+
+post office
+
+pouvoir
+
+to be able
+
+prix le
+
+price
+
+propre
+
+clean, tidy
+
+pull le
+
+jumper
+
+quartier le
+
+quarter, area
+
+quitter
+
+to leave
+
+ranger
+
+to tidy
+
+réduire
+
+to reduce
+
+réduit
+
+reduced
+
+rez-de-chaussée le
+
+ground floor
+
+risque le
+
+risk
+
+robe la
+
+dress
+
+sale
+
+dirty
+
+salle à manger la
+
+dining room
+
+salle de bains la
+
+bathroom
+
+salon le
+
+living room, lounge
+
+sécurité la
+
+safety
+
+soldes les (m)
+
+sale
+
+sous-sol le
+
+basement
+
+station-service la
+
+service station
+
+tabac le
+
+newsagent’s
+
+transport en commun le
+
+public transport
+
+travailler
+
+to work
+
+se trouver
+
+to be situated
+
+usine l’ (f)
+
+factory
+
+vendeur le/vendeuse la
+
+shop assistant
+
+vendre
+
+to sell
+
+veste la
+
+jacket
+
+vêtements les (m)
+
+clothes
+
+vie la
+
+life
+
+ville la
+
+town
+
+vitrine la
+
+shop window
+
+vivre
+
+to live
+
+voisin le
+
+neighbour
+
+zone piétonne la
+
+pedestrian zone""".splitlines()
+
+social_issues = """alcool l’ (m)
+
+alcohol
+
+alimentation l’ (f)
+
+food
+
+aller bien
+
+to be well
+
+aller mieux
+
+to be better
+
+(s’) arrêter
+
+to stop
+
+association caritative l’ (f)
+
+charity
+
+bonbon le
+
+sweet
+
+bonheur le
+
+happiness
+
+chocolat le
+
+chocolate
+
+combattre
+
+to combat
+
+déjeuner le
+
+lunch
+
+se détendre
+
+to relax
+
+devenir
+
+to become
+
+dîner le
+
+evening meal
+
+dormir
+
+to sleep
+
+drogue la
+
+drug
+
+se droguer
+
+to take drugs
+
+eau potable l’ (f)
+
+drinking water
+
+égalité l’ (f)
+
+equality
+
+en bonne forme
+
+fit
+
+en bonne santé
+
+in good health
+
+équilibré
+
+balanced
+
+espace vert l’ (m)
+
+green area
+
+éviter
+
+to avoid
+
+faible
+
+weak
+
+faire un régime
+
+to be on a diet
+
+fatigué
+
+tired
+
+forme la
+
+fitness
+
+fort
+
+strong
+
+fumer
+
+to smoke
+
+garder
+
+to look after
+
+gras
+
+fatty
+
+habitude l’ (f)
+
+habit
+
+malade
+
+ill, sick
+
+maladie la
+
+illness
+
+malsain
+
+unhealthy
+
+matières grasses les (f)
+
+fats
+
+médecin le
+
+doctor
+
+médicament le
+
+medicine
+
+obésité l’ (f)
+
+obesity
+
+odeur l’ (f)
+
+smell
+
+petit déjeuner le
+
+breakfast
+
+pressé
+
+in a hurry, rushed/squeezed
+
+se relaxer
+
+to relax
+
+repas le
+
+meal
+
+rester
+
+to stay
+
+réussir
+
+to succeed
+
+sain
+
+healthy
+
+santé la
+
+health
+
+(se) sentir
+
+to feel
+
+sommeil le
+
+sleep
+
+sucré
+
+sugary
+
+suivre
+
+to follow
+
+tabac le
+
+tobacco
+
+travail bénévole le
+
+voluntary work
+
+tuer
+
+to kill
+
+vide
+
+empty
+
+vomir
+
+to be sick""".splitlines()
+
+global_issues = """allumer
+
+to switch on
+
+bain le
+
+bath
+
+boîte la (en carton)
+
+(cardboard) box
+
+centre de recyclage le
+
+recycling centre
+
+chômage le
+
+unemployment
+
+chauffage central le
+
+central heating
+
+cultiver
+
+to grow
+
+en danger
+
+in danger
+
+déchets les (m)
+
+rubbish
+
+détruire
+
+to destroy
+
+disparaître
+
+to disappear
+
+douche la
+
+shower
+
+environnement l’ (m)
+
+environment
+
+éteindre
+
+to switch off
+
+faire du recyclage
+
+to recycle
+
+gaspiller
+
+to waste
+
+inondation l’ (f)
+
+flood
+
+jeter
+
+to throw (away)
+
+ordures les (f)
+
+rubbish
+
+pauvreté la
+
+poverty
+
+pétrole le
+
+oil
+
+piste cyclable la
+
+cycle lane
+
+pollué
+
+polluted
+
+poubelle la
+
+dustbin
+
+protéger
+
+to protect
+
+réchauffement de la Terre le
+
+global warming
+
+robinet le
+
+tap
+
+sac en plastique le
+
+plastic bag
+
+sans-abri le
+
+homeless person
+
+sauver
+
+to save
+
+utiliser
+
+to use""".splitlines()
+
+travel_and_tourism = """accueil l’ (m)
+
+welcome
+
+aéroport l’ (m)
+
+airport
+
+Afrique l’ (f)/africain
+
+Africa/African
+
+agence de voyages l’ (f)
+
+travel agency
+
+Algérie l’ (f)/algérien
+
+Algeria/Algerian
+
+Allemagne l’ (f)/allemand
+
+Germany/German
+
+Alpes les (f)
+
+Alps
+
+Angleterre l’ (f)/anglais
+
+England/English
+
+arrivée l’ (f)
+
+arrival
+
+ascenseur l’ (m)
+
+lift
+
+s’asseoir
+
+to sit down
+
+attendre
+
+to wait (for)
+
+auberge de jeunesse l’ (f)
+
+youth hostel
+
+auto l’ (f)
+
+car
+
+autobus l’ (m)
+
+bus
+
+autoroute l’ (f)
+
+motorway
+
+aventure l’ (f)
+
+adventure
+
+avion l’ (m)
+
+plane
+
+bagages les (m)
+
+luggage
+
+(se) baigner
+
+to bathe, swim
+
+bateau le
+
+boat
+
+Belgique la/belge
+
+Belgium/Belgian
+
+bord de la mer le
+
+seaside
+
+bronzer
+
+to sunbathe
+
+car le
+
+coach
+
+carte la
+
+map
+
+carte postale la
+
+postcard
+
+casser
+
+to break
+
+chambre de famille la
+
+family room
+
+chercher
+
+to look for
+
+Chine la/chinois
+
+China/Chinese
+
+clé la
+
+key
+
+colonie de vacances la
+
+holiday/summer camp
+
+conduire
+
+to drive
+
+se coucher
+
+to go to bed
+
+crème solaire la
+
+sun cream
+
+départ le
+
+departure
+
+descendre
+
+to stay
+
+dortoir le
+
+dormitory
+
+Douvres
+
+Dover
+
+durer
+
+to last
+
+échange l’ (m)
+
+exchange
+
+Ecosse l’ (f)/écossais
+
+Scotland/Scottish
+
+en plein air
+
+in the open air
+
+Espagne l’ (f)/espagnol
+
+Spain/Spanish
+
+essence l’ (f)
+
+petrol
+
+Etats-Unis les (m)
+
+USA
+
+à l’étranger
+
+abroad
+
+étranger l’ (m)
+
+stranger/foreigner
+
+expliquer
+
+to explain
+
+faire la connaissance
+
+to get to know
+
+faire du camping
+
+to go camping
+
+(se) garer
+
+to park
+
+Grande-Bretagne la/britannique
+
+Great Britain/British
+
+(s’) habituer à
+
+to get used to
+
+horaire l’ (m)
+
+timetable
+
+île l’ (f)
+
+island
+
+lac le
+
+lake
+
+laisser
+
+to leave
+
+laver
+
+to wash
+
+(se) laver
+
+to get washed
+
+lentement
+
+slowly
+
+lever
+
+to lift
+
+(se) lever
+
+to get up
+
+lit le
+
+bed
+
+location de voitures la
+
+car rental
+
+logement le
+
+accommodation
+
+loger
+
+to stay, lodge
+
+loisir le
+
+free time (activity)
+
+Londres
+
+London
+
+louer
+
+to hire, rent
+
+lunettes de soleil les (f)
+
+sun glasses
+
+maillot de bain le
+
+swimming costume
+
+Manche la
+
+English C hannel
+
+marcher
+
+to walk
+
+Maroc le/marocain
+
+Morocco/Moroccan
+
+Méditerranée la
+
+Mediterranean
+
+monde le
+
+world
+
+montagne la
+
+mountain
+
+monter
+
+to go up/ascend
+
+moto la
+
+motor bike
+
+nager
+
+to swim
+
+parc d’attractions le
+
+theme park
+
+partir
+
+to leave
+
+Pays de Galles le/gallois
+
+Wales/Welsh
+
+pièce d’identité la
+
+means of identification
+
+plage la
+
+beach
+
+plan de ville le
+
+town plan
+
+se présenter
+
+to introduce oneself
+
+prêt
+
+ready
+
+projet le
+
+plan
+
+se promener
+
+to go for a walk
+
+propriétaire le/la
+
+owner
+
+randonnée la
+
+walk, hike
+
+remercier
+
+to thank
+
+rendez-vous le
+
+meeting
+
+renseignements les (m)
+
+information
+
+réserver
+
+to book, reserve
+
+rester
+
+to stay
+
+retour le
+
+return
+
+retourner
+
+to return
+
+(se) réveiller
+
+to wake up
+
+revenir
+
+to come back
+
+rivière la
+
+river
+
+route la
+
+road, way
+
+salle de séjour la
+
+lounge
+
+sable le
+
+sand
+
+sac de couchage le
+
+sleeping bag
+
+séjour le
+
+stay, visit
+
+spectacle le
+
+show
+
+Suisse la/suisse
+
+Switzerland/Swiss
+
+tourisme le
+
+tourism
+
+tourner
+
+to turn
+
+Tunisie la/tunisien
+
+Tunisia/Tunisian
+
+vacances les (f)
+
+holidays
+
+valise la
+
+suitcase
+
+visite la (guidée)
+
+(guided) visit
+
+voiture la
+
+car
+
+vol le
+
+flight
+
+voler
+
+to fly
+
+voyager
+
+to travel
+
+vue de mer la
+
+sea view""".splitlines()
+
+my_studies = """chimie la
+
+chemistry
+
+dessin le
+
+art
+
+EPS l’ (f)
+
+PE (physical education)
+
+français le
+
+French
+
+informatique (l’) (f)
+
+IT (information technology)
+
+instituteur l’ (m)
+
+primary school teacher (male)
+
+institutrice l’ (f)
+
+primary school teacher (female)
+
+langue la
+
+language
+
+matière la
+
+subject
+
+physique la
+
+physics
+
+professeur le
+
+teacher
+
+religion la
+
+religious studies""".splitlines()
+
+school_life = """apprendre
+
+to learn
+
+calculette la
+
+calculator
+
+collège le
+
+secondary school
+
+comprendre
+
+to understand
+
+cours le
+
+lesson
+
+demander
+
+to ask
+
+devoirs les (m)
+
+homework
+
+difficulté la
+
+difficulty
+
+diplôme le
+
+qualification
+
+directeur le
+
+headmaster
+
+directrice la
+
+headmistress
+
+discuter
+
+to discuss
+
+distribuer
+
+to give out
+
+droit le
+
+right
+
+école l’ (f) (primaire/secondaire)
+
+(primary/secondary) school
+
+élève l’ (m/f)
+
+pupil
+
+emploi du temps l’ (m)
+
+timetable
+
+en seconde
+
+in year 11
+
+études les (f)
+
+study
+
+étudiant l’ (m)
+
+student
+
+examen l’ (m)
+
+examination
+
+faire attention
+
+to pay attention
+
+leçon la
+
+lesson
+
+lecture la
+
+reading
+
+lire
+
+to read
+
+maquillage le
+
+make up
+
+note la
+
+mark
+
+oublier
+
+to forget
+
+passer un examen
+
+to sit an exam
+
+pause la
+
+break, pause
+
+penser
+
+to think
+
+permettre
+
+to allow, permit
+
+porter
+
+to wear, carry
+
+pression la
+
+pressure
+
+récré(ation) la
+
+break
+
+règle la
+
+rule
+
+règlement le
+
+school rules
+
+rentrée la
+
+return to school
+
+répéter
+
+to repeat
+
+réponse la
+
+reply
+
+résultat le
+
+result
+
+réussir un examen
+
+to pass an exam
+
+salle de classe la
+
+classroom
+
+savoir
+
+to know
+
+scolaire
+
+school (adj)
+
+tableau le
+
+board
+
+terrain de sport le
+
+sports ground
+
+trimestre le
+
+term
+
+trouver
+
+to find""".splitlines()
+
+post_16_life = """année sabbatique l' (f)
+
+gap year
+
+apprenti(e) l' (m/f)
+
+apprentice
+
+avoir envie de
+
+to want to
+
+avoir l’intention (de)
+
+to intend (to)
+
+bac(calauréat) le
+
+A-level(s)
+
+en première
+
+in year 12
+
+en terminale
+
+in year 13
+
+étudier
+
+to study
+
+laisser tomber
+
+to drop
+
+liberté la
+
+freedom
+
+lycée le
+
+sixth form college, grammar school""".splitlines()
+
+jobs_and_ambitions = """agent de police l’ (m)
+
+policeman
+
+avenir l’ (m)
+
+future
+
+boucher le
+
+butcher
+
+boulanger le
+
+baker
+
+boulot le
+
+job
+
+candidat le
+
+candidate
+
+coiffeur le
+
+hairdresser
+
+compter (sur)
+
+to count (on)
+
+employé(e) l'
+
+employee
+
+employeur l'
+
+employer
+
+espérer
+
+to hope
+
+facteur le
+
+postman
+
+fermier le
+
+farmer
+
+gagner
+
+to earn, win
+
+idée l’ (f)
+
+idea
+
+infirmier l’ (m)
+
+nurse
+
+informaticien l’
+
+IT worker
+
+ingénieur l’ (m)
+
+engineer
+
+journal le
+
+newspaper
+
+livre la (sterling)
+
+pound (sterling)
+
+maçon le
+
+builder
+
+mécanicien le
+
+mechanic
+
+mettre de l’argent de côté
+
+to save money
+
+patron le; patronne la
+
+boss
+
+petit job le
+
+part - time job
+
+plombier le
+
+plumber
+
+policier le
+
+policeman
+
+rêve le
+
+dream
+
+rêver
+
+to dream
+
+recevoir
+
+to receive
+
+varié
+
+varied
+
+vétérinaire le
+
+vet""".splitlines()
+
+more_family_and_friends = """bague la
+
+ring
+
+bouton le
+
+spot, pimple
+
+compréhensif/compréhensive
+
+understanding
+
+confiance la
+
+trust
+
+connaître
+
+to know (a person)
+
+de mauvaise humeur
+
+bad tempered
+
+épouser
+
+to marry
+
+esprit l’ (m)
+
+mind
+
+étonnant
+
+amazing
+
+étrange
+
+strange
+
+fiançailles les (f)
+
+engagement
+
+fier/fière
+
+proud
+
+fou/folle
+
+mad, crazy
+
+gâter
+
+to spoil
+
+gêner
+
+to annoy
+
+jaloux/jalouse
+
+jealous
+
+jumeau le/jumelle la
+
+twin
+
+jeunesse la
+
+youth
+
+marre (en avoir)
+
+(to be) fed up
+
+mépriser
+
+to despise
+
+se mettre en colère
+
+to get angry
+
+mourir
+
+to die
+
+naître
+
+to be born
+
+neveu le
+
+nephew
+
+les noces (f)
+
+wedding
+
+ondulé
+
+wavy
+
+se rendre compte
+
+to realise
+
+(se) séparer
+
+to separate
+
+vif/vive
+
+lively""".splitlines()
+
+more_everyday_tech = """bloggeur le
+
+blogger
+
+caméscope le
+
+camcorder
+
+compte le
+
+account
+
+console de jeux la
+
+games console
+
+courrier électronique le
+
+email
+
+écran tactile l’ (m)
+
+touch screen
+
+effacer
+
+to delete
+
+enregistrer
+
+to record
+
+fichier le
+
+file
+
+genre le
+
+type, kind
+
+imprimer
+
+to print
+
+internaute l’ (m)
+
+internet user
+
+logiciel le
+
+software
+
+moniteur le
+
+monitor
+
+numérique
+
+digital
+
+page d’accueil la
+
+welcome page
+
+pile la
+
+battery
+
+remplir
+
+to fill (in)
+
+sauvegarder
+
+to save
+
+traitement de texte le
+
+word processing""".splitlines()
+
+free_time_activities = """s’abonner
+
+to subscribe
+
+ado l’ (m/f)
+
+adolescent
+
+ail l’ (m)
+
+garlic
+
+amer/amère
+
+sour
+
+ananas l’ (m)
+
+pineapple
+
+bien cuit
+
+well cooked
+
+chorale la
+
+choir
+
+course la
+
+race
+
+échecs les (m)
+
+chess
+
+effets spéciaux (m) les
+
+special effects
+
+épicé
+
+spicy
+
+espèce l’ (f)
+
+type, kind
+
+féliciter
+
+to congratulate
+
+lieu le (avoir lieu)
+
+place (to take place)
+
+marquer un but/un essai
+
+to score a goal/try
+
+noix la
+
+nut
+
+pamplemousse la
+
+grapefruit
+
+piquant
+
+spicy
+
+prune la
+
+plum
+
+séance la
+
+performance
+
+tournée la
+
+tour
+
+tournoi le
+
+tournament
+
+veau le
+
+veal""".splitlines()
+
+more_customs = """défilé le
+
+procession
+
+jour férié le
+
+public holiday
+
+messe la
+
+mass
+
+Pentecôte la
+
+Whitsuntide
+
+réunion la
+
+meeting""".splitlines()
+
+more_neighbourhood = """bricolage le
+
+DIY (do it yourself)
+
+distractions les (f)
+
+things to do
+
+écharpe l’ (f)
+
+scarf
+
+embouteillage l’ (m)
+
+traffic jam
+
+endroit l’ (m)
+
+place
+
+fermeture la
+
+closure
+
+foulard le
+
+scarf
+
+four le
+
+oven
+
+foyer le
+
+home
+
+garder
+
+to look after
+
+grande surface la
+
+superstore
+
+lèche-vitrine le (faire du)
+
+window shopping (to go window shopping)
+
+loyer le
+
+rent
+
+lumière la
+
+light
+
+marque la
+
+make, label, brand
+
+pelouse la
+
+lawn
+
+pull à capuche le
+
+hoodie
+
+rayon le
+
+department
+
+rembourser
+
+to reimburse
+
+surchargé
+
+overcrowded
+
+tâche la
+
+task""".splitlines()
+
+more_social_issues = """accro
+
+addicted
+
+agir (il s’agit de)
+
+to act (it’s a question of)
+
+alcoolique
+
+alcoholic
+
+avertir
+
+to warn
+
+avoir sommeil
+
+to be sleepy
+
+cacher
+
+to hide
+
+cancer (des poumons) le
+
+(lung) cancer
+
+coupable
+
+guilty
+
+casse-croûte le
+
+snack
+
+conseil le
+
+advice
+
+consommation la
+
+consumption, usage
+
+crise cardiaque la
+
+heart attack
+
+dégoûtant
+
+disgusting
+
+déprimé
+
+depressed
+
+désintoxiquer
+
+to detox
+
+dette la
+
+debt
+
+douleur la
+
+pain
+
+s’enivrer
+
+to get drunk
+
+enquête l’ (f)
+
+enquiry
+
+entraînement l’ (m)
+
+training
+
+épuiser
+
+to exhaust
+
+s’entraîner
+
+to train
+
+essoufflé
+
+breathless
+
+foie le
+
+liver
+
+hors d’haleine
+
+out of breath
+
+ivre
+
+drunk
+
+mannequin le
+
+model
+
+mener
+
+to lead
+
+musculation la
+
+weight training
+
+nourriture bio la
+
+organic food
+
+peau la
+
+skin
+
+quotidien(ne)
+
+daily
+
+personnes défavorisées les (f)
+
+disadvantaged people
+
+renoncer
+
+to give up
+
+respirer
+
+to breathe
+
+salé
+
+salty
+
+sida le
+
+AIDS
+
+soigner
+
+to care for
+
+soin le
+
+care
+
+surveiller
+
+to watch
+
+tabagisme le
+
+addiction to smoking
+
+tatouage le
+
+tattooing
+
+tenter
+
+to attempt
+
+tousser
+
+to cough
+
+toxicomane le/la
+
+drug addict
+
+valoir mieux
+
+to be better, preferable
+
+voix la
+
+voice""".splitlines()
+
+more_global_issues = """agresser
+
+to attack
+
+améliorer
+
+to improve
+
+attaque l’ (f)
+
+attack
+
+augmenter
+
+to increase
+
+bande la
+
+gang
+
+campagne la
+
+campaign
+
+charbon le
+
+coal
+
+couche d’ozone la
+
+ozone layer
+
+croire
+
+to believe
+
+déboisement le
+
+deforestation
+
+effet de serre l’ (m)
+
+greenhouse effect
+
+effrayant
+
+frightening
+
+égal
+
+equal
+
+emballage l’ (m)
+
+packaging
+
+empêcher
+
+to prevent
+
+endommager
+
+to damage
+
+énergie renouvelable l’ (f)
+
+renewable energy
+
+ennui l’ (m)
+
+problem, worry
+
+entouré
+
+surrounded
+
+état l’ (m)
+
+state
+
+gaz carbonique le
+
+carbon dioxide
+
+gaz d’échappement le
+
+exhaust fumes
+
+guerre la
+
+war
+
+harceler
+
+to bully, harass
+
+harcèlement le
+
+bullying, harassment
+
+immigré l’ (m)
+
+immigrant
+
+incendie l’ (m)
+
+fire
+
+inonder
+
+to flood
+
+s’inquiéter
+
+to worry
+
+lourd
+
+heavy, serious
+
+lutter
+
+to struggle
+
+manifestation la
+
+demonstration
+
+marée la
+
+tide
+
+mentir
+
+to lie
+
+mondial
+
+worldwide
+
+niveau le
+
+level
+
+paix la
+
+peace
+
+paysage le
+
+countryside/landscape
+
+(se) plaindre
+
+to complain
+
+produire
+
+to provide
+
+produits bio les (m)
+
+green products
+
+ramasser
+
+to pick up
+
+reconnaissant
+
+grateful
+
+réfugié le
+
+refugee
+
+supporter
+
+to tolerate, put up with
+
+supprimer
+
+to suppress/eliminate
+
+souci le
+
+worry, concern
+
+témoin le
+
+witness
+
+trou le
+
+hole
+
+vague la
+
+wave
+
+voler
+
+to steal
+
+voyou le
+
+yob, hooligan""".splitlines()
+
+more_travel_and_tourism = """aire de jeux l’ (f)
+
+play area
+
+atterrir
+
+to land
+
+avis l’ (m)
+
+opinion
+
+chambre d’hôte la
+
+bed and breakfast
+
+chemin le
+
+way, path
+
+chemin de fer le
+
+railway
+
+climatisation la
+
+air conditioning
+
+concours le
+
+competition
+
+se débrouiller
+
+to get by, to cope
+
+décoller
+
+to take off
+
+déranger
+
+to disturb
+
+donner sur
+
+to overlook
+
+dresser
+
+to put up (tent)
+
+emplacement l’ (m)
+
+pitch (tent)
+
+événement l’ (m)
+
+event
+
+faire la grasse matinée
+
+to lie in, sleep in
+
+foire la
+
+fair
+
+frontière la
+
+border, frontier
+
+héberger
+
+to lodge, accommodate
+
+herbe l’ (f)
+
+grass
+
+inconnu
+
+unknown
+
+jardin zoologique le
+
+zoo
+
+jumelé
+
+twinned
+
+lavabo le
+
+wash basin
+
+lits superposés les (m)
+
+bunk beds
+
+manquer
+
+to miss
+
+se mettre en route
+
+to set off
+
+moquette la
+
+carpet
+
+paraître
+
+to seem
+
+permis de conduire le
+
+driving licence
+
+la perte
+
+loss
+
+plaire
+
+to please
+
+plongée sous-marine la
+
+underwater diving
+
+ralentir
+
+to slow down
+
+remarquer
+
+to notice
+
+sommet le
+
+summit
+
+station balnéaire la
+
+seaside resort
+
+tour la
+
+tower, tour
+
+traduire
+
+to translate
+
+trajet le
+
+journey
+
+traversée la
+
+crossing""".splitlines()
+
+study_and_employment = """couture la
+
+sewing
+
+langues vivantes les (f)
+
+modern languages
+
+instruction civique l’ (f)
+
+citizenship
+
+proviseur le
+
+head teacher""".splitlines()
+
+more_school_life = """bien équipé
+
+well equipped
+
+bulletin scolaire le
+
+school report
+
+car de ramassage le
+
+school bus
+
+couloir le
+
+corridor
+
+doué
+
+gifted
+
+échouer
+
+to fail
+
+enseigner
+
+to teach
+
+incivilités les (f)
+
+rudeness
+
+injure l' (f)
+
+insult
+
+mal équipé
+
+badly equipped
+
+maternelle la
+
+nursery school
+
+redoubler
+
+to repeat the year
+
+retenue la
+
+detention""".splitlines()
+
 lists = [comparisons, conjunctions_connectives, prepositions, negatives, number_expressions
          , questions, common_questions, greetings_and_exclamations, opinions, seasons, 
          time_expressions, location_and_distance, colours, weights_and_measures, shape, weather,
          access, correctness, materials, common_abbreviations, me_family_friends, everyday_technology,
-         free_time_activities]
+         free_time_activities, french_customs_and_festivals, neighbourhood, social_issues, global_issues,
+         travel_and_tourism, my_studies, school_life, post_16_life, jobs_and_ambitions, more_family_and_friends, more_everyday_tech, 
+         more_customs, more_neighbourhood, more_social_issues, more_global_issues, more_travel_and_tourism, study_and_employment,
+         more_school_life]
 
 for list in lists:
     new_list = []
