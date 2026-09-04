@@ -5356,6 +5356,98 @@ retenue la
 
 detention""".splitlines()
 
+more_education = """conseiller d’orientation le
+
+careers adviser
+
+épreuve l’ (f)
+
+test
+
+établissement l’ (m)
+
+establishment
+
+faculté la
+
+university, faculty
+
+former
+
+to train
+
+licence la
+
+degree""".splitlines()
+
+more_jobs_and_ambitions = """à peine
+
+scarcely
+
+assis
+
+sitting
+
+avocat l’ (m)
+
+lawyer
+
+comptable le
+
+accountant
+
+croisière la
+
+cruise
+
+débouché le
+
+prospect/job prospect/opportunity
+
+debout
+
+standing
+
+dessinateur de mode le
+
+fashion designer
+
+disponible
+
+available
+
+élargir
+
+to widen
+
+entreprise l’ (f)
+
+firm, enterprise
+
+entretien l’ (m)
+
+interview
+
+enrichissant
+
+enriching, rewarding
+
+espoir l’ (m)
+
+hope
+
+interprète l’ (m)
+
+interpreter
+
+outil l’ (m)
+
+tool
+
+venir de
+
+to have just""".splitlines()
+
 lists = [comparisons, conjunctions_connectives, prepositions, negatives, number_expressions
          , questions, common_questions, greetings_and_exclamations, opinions, seasons, 
          time_expressions, location_and_distance, colours, weights_and_measures, shape, weather,
@@ -5381,4 +5473,5 @@ for list in lists:
         else:
             flashcard_set[key] = item
             
-    flashcards_list[input("What would you like to name this flashcard set?")](flashcard_set)
+    flashcards_list[input("What would you like to name this flashcard set?")] = flashcard_set
+    print(flashcards_list)
