@@ -5457,21 +5457,29 @@ lists = [comparisons, conjunctions_connectives, prepositions, negatives, number_
          more_customs, more_neighbourhood, more_social_issues, more_global_issues, more_travel_and_tourism, study_and_employment,
          more_school_life]
 
-for list in lists:
-    new_list = []
-    for vocab in list:
-        if vocab:
-            new_list.append(vocab)
-            
-    flashcard_set = {}
-    i = 1
-    for item in new_list:
-        i += 1
-        i = i % 2
-        if i == 0:
-            key = item
-        else:
-            flashcard_set[key] = item
-            
-    flashcards_list[input("What would you like to name this flashcard set?")] = flashcard_set
-    print(flashcards_list)
+def parse_lists(lists : list) -> dict:
+    x = 0 
+    
+    for list in lists:
+        new_list = []
+        for vocab in list:
+            if vocab:
+                new_list.append(vocab)
+                
+        flashcard_set = {}
+        i = 1
+        for item in new_list:
+            i += 1
+            i = i % 2
+            if i == 0:
+                key = item
+            else:
+                flashcard_set[key] = item
+                
+        flashcards_list[x] = flashcard_set
+        x += 1
+        print(flashcards_list)
+        
+    return flashcards_list
+
+full_flashcards_list = parse_lists(lists)
