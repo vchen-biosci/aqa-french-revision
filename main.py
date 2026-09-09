@@ -5483,3 +5483,11 @@ def parse_lists(lists : list) -> dict:
     return flashcards_list
 
 full_flashcards_list = parse_lists(lists)
+
+def welcome_user():
+    pass
+
+def sort_flashcards(flashcard_set : dict) -> list:
+    pass
+
+    #maybe i should assign each flashcard a unique id, then make a separate dictionary using the primary keys as foreign keys and randking them in order of importance?
